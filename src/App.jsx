@@ -14,7 +14,7 @@ function App() {
     <div className="min-h-screen bg-gray-100">
 <header>
       <Navbar /></header>
-      <main className="h-[calc(100vh_-_3rem)] overflow-y-auto"> {/* Optional padding if navbar is fixed */}
+      <main className=" overflow-y-auto"> {/* Optional padding if navbar is fixed */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

@@ -12,9 +12,9 @@ function App() {
  
   return (
     <div className="min-h-screen bg-gray-100">
-
-      <Navbar />
-      <main className="h-[calc(100vh_-_6rem)]"> {/* Optional padding if navbar is fixed */}
+<header>
+      <Navbar /></header>
+      <main className="h-[calc(100vh_-_3rem)] overflow-y-auto"> {/* Optional padding if navbar is fixed */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -24,7 +24,8 @@ function App() {
 
         </Routes>
       </main>
-      <Footer />
+      <footer>
+      <Footer /></footer>
     </div>
   );
 }

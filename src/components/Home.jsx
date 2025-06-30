@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 function Home() {
   const navigate = useNavigate();
   return (
-    <div className='bg-cover bg-center h-screen flex flex-col justify-center items-center text-center px-4 bg-image'
+    <div className='bg-cover bg-center h-[calc(100vh_-_3rem)] flex flex-col justify-center items-center text-center px-4 bg-image'
     >
       {/* Glassmorphism - major css properties (backdrop-blur-md bg-white/20) */}
       <div className='backdrop-blur-md bg-white/20 p-6 rounded max-w-2xl border border-blue-500/30'>

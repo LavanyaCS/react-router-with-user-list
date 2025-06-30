@@ -3,7 +3,7 @@ function About() {
 
   return (
 
- <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+ <div className="h-[calc(100vh_-_3rem)] bg-gray-100 flex items-center justify-center p-6">
   <div className="bg-white rounded-xl shadow-lg p-8 max-w-2xl w-full text-gray-800">
     <h1 className="text-3xl font-bold mb-4 text-center">About This App</h1>
 

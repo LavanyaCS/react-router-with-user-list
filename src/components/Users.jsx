@@ -26,7 +26,7 @@ function Users() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-white px-6 py-16">
-      <h1 className="text-2xl xl:text-4xl font-bold mb-6 text-center text-gray-800">User Directory</h1>
+      <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-6 text-center text-gray-800">User Directory</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {users.map((user) => (
